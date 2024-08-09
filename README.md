@@ -48,11 +48,12 @@ Preprocessing, transforming , cleaning data before it is used for ML model trani
 
 ### 1. Data Cleaning
 - **1.1 Handling Missing Values**
-   If a feature is missing in more than 70% of the data, drop it. For features with 70% or fewer missing values, fill in the gaps using the mean or median (for numerical features) or the mode (for categorical features). This ensures data integrity while handling missing values efficiently.
-   [imputation](MLS-C01/Data_Cleaning/imputation.py)
-   [Drop Feature](MLS-C01/Data_Cleaning/drop_feature.py)
+   If a feature is missing in more than 70% of the data, drop it[Drop Feature](MLS-C01/Feature_Engineering/Data_Cleaning/drop_feature.py). For features with 70% or fewer missing values, fill in the gaps using the mean or median (for numerical features) or the mode (for categorical features),[imputation](MLS-C01/Feature_Engineering/Data_Cleaning/imputation.py). This ensures data integrity while handling missing values efficiently.
+   
+
+   
 - **1.2 Removing Duplicates**
-   [Remove Dupes](MLS-C01/Data_Cleaning/remove_dupes.py)
+   [Remove Dupes](MLS-C01/Feature_Engineering/Data_Cleaning/remove_dupes.py)
 
 - **1.3 Outlier Detection and Treatment**
 - **1.4 Data Normalization and Standardization**
